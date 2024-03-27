@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    /*cursor: pointer; --> seems useless*/ 
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+.wrap_container_top{ /* container top page pour justifier top header section*/
+    width: auto;
+    height: 50px;
+} 
+
+.top_header{ /* top right action section */
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    height: 48px;
+    width: 253.537px;
+    display: flex; /* elements on the same line */
+    justify-content: space-around; /* equal spacing between elements */
+    align-items: center; 
+    /*border: 1px solid black; Just for visualization */
+    float: right;
+}
+.center_top { /*container including the Google main image*/
+    display: flex;
+    height: 100%; /*container fitting all the page*/
+    align-items: flex-end; /*centers the logo*/
+    justify-content: center; /*centers the logo*/
+    /*border: 1px solid black; Just for visualization */
+    max-height: 290px;
+    min-height: 92px;
+}
+.logo{
+    max-height: 92px;
+    /*border: 1px solid black; Just for visualization */
+    justify-content: center; /* Center horizontally */
+    position: relative;
+    bottom: 0;
+}
+.wrap_container_center {
+    /* border: 1px solid black; Just for visualization */
+    padding: 20px 20px;
+    height: 160px;
+}
+.search_and_buttons {
+    /*border: 1px solid black; Just for visualization */
+    display: flex;
+    justify-content: center;
+}
+.search_bar{
+    padding-left: 14px; /*space to the left of the search bar */
+    display: flex; /* elements on the same line */
+    /*margin-top: auto;*/
+    max-width: 582px;
+    width: 100%;
+    height: 46px;
+    background: #fff;
+    align-items: center; /* Align seach bar items vertically */
+    border: 1px solid rgb(223, 225, 229); /* outline border search bar */
+    border-radius: 24px; /*rounded edges*/
+}
+.search_bar: hoover{
+    box-shadow: 0 0 10px rgba(0, 5, 5, 5);
+}
+.magnifying_glass{
+    padding: 0px 13px 0px 0px;
+    justify-content: flex-start;
+}
+.text_enter{
+    /*outline: none;*/
+    font-size: 16px;
+    height: 100%;
+    max-width: 443px;
+    width: 400;
+}
+#search_field{
+    width: 100%;
+    height:100%;
+    border-style: none;
+}
+/*.input {
+    width: 100%;
+    border-style: none;
+}*/
+.microphone {
+    padding: 0px 8px;
+    size: 24px 44px;
+}
+.image_search {
+    padding: 0px 8px;
+    size: 24px 44px;
+}
+.button_wrapper{
+    /*border: 1px solid black;*/
+    width: 100%;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 10px 20px 10px;
+}
+.btn{
+    /*display: inline-block;*/
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3%;
+    font-size: 14px;
+    cursor: pointer
+    background-color: #fffffc;
+}
+.bottom_banner{
+    background-color: #f8f4f4;
+    padding: 15px 30px; 
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 46px;
+    font-size: 15px;
+}
+
+footer{
+    /*border: 1px solid black; Just for visualization */
+    border-top-color: black;
+    display: flex;
+    width: 95%;
+    height: 46px;
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #f8f4f4;
+
+}
+.footer_left{
+    /*border: 1px solid black; Just for visualization */
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 399px;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+.footer_right{
+    /*border: 1px solid black; Just for visualization */
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    width: 225px;
+    padding: 15px 15px 15px 15px;
+    float: right;
+    text-decoration: none;
+}
+/*div.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  BROKEN FOR NOW, TO FIX LATER
+  */
+a {
+    text-decoration: none; /* removes underline by default */
+}
+a:hover{
+    text-decoration: underline; /* add an underline at hoover */
+}
+p{
+    text-align: center;
+}
