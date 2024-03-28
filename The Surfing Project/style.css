@@ -1,0 +1,8 @@
+.hero-unit {
+    background-image: url('image/pexels-matt-hardy-1533729.jpg'); /* Replace 'your-hero-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px; /* Adjust padding as needed */
+    text-align: center;
+}
