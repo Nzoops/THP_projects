@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    outline: 1px black;
+}
+
+.navbar bg-body-tertiary{
+    display: flex;
+    flex-direction: row;
+    outline: 1px black;
+}
