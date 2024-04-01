@@ -8,6 +8,7 @@ else
         space = " " * (stage - i - 1)
         hash1 = "#" * (i + 1)
         hash2 = "#" * (i)
-        puts space + hash1 + hash2 + space
+        #space2 = " " * (stage - i)
+        puts space + hash1 + hash2 + space #or space2 but does not matter
     end
 end

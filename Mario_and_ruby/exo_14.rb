@@ -11,5 +11,3 @@ empty_array = []
     else
     end   
 end
-
-   
