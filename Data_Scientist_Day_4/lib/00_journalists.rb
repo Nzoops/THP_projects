@@ -35,14 +35,11 @@ def find_the_precious(array)
     puts "#{position} away from mordor frodo"
 end
 
-def max_length(array)
+def count_and_sort(array)
     max = array.max_by {|i| i.length}
     max_length = max.length + 1
-end
-
-def count_and_sort(array)
     i = 1
-    while i <= max_length(array)
+    while i <= max_length
     count = array.count {|handle| handle.length + 1 == i}
     puts " you have #{count} elements with #{i} characters"
     i += 1
