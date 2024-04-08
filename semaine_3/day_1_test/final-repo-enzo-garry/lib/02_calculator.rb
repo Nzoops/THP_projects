@@ -36,14 +36,14 @@ def multiply (nb1, nb2)
 end
 
 def power(nb, power)
-    result = nb ^ power
+    result = nb ** power
     return result
 end
 
 def factorial(valeur)
     result = 1
-    while valeur != 1
-        result = result * valeur
+    while valeur > 1
+        result *= valeur
         valeur -= 1
     end
     return result
